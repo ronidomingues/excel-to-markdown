@@ -47,11 +47,9 @@
 #### Screenshot of GUI Mode
 
 <p float="left">
-   <img src="docs/gui_mode.png" alt="GUI Mode Insterface" width="300">
+   <img src="docs/screenshot_01_gui_mode.png" alt="GUI Mode Insterface" width="250" />
+   <img src="docs/screenshot_02_select_excel_file.png" alt="Select File" width="250" />
+   <img src="docs/screenshot_03_select_folder.png" alt="Select Output Folder" width="250" />
+   <img src="docs/screenshot_04_messagebox.png" alt="Conversion Message" width="250" />
+   <img src="docs/screenshot_05_preview_conversion.png" alt="Preview Conversion" width="250" />
 </p>
-
-| GUI Mode Interface || GUI Mode Interface |
-| ------------------ | ------------------ |
-| ![](docs/gui_mode.png) | ![](docs/gui_mode_select_file.png) |
-| ![](docs/gui_mode_select_folder.png) | ![](docs/gui_mode_messagebox.png) |
-| ![](docs/gui_mode_preview_conversion.png)
