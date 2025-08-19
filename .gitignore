@@ -1,0 +1,3 @@
+# Ignored files o push:
+.venv/
+__pycache__/
