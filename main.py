@@ -12,7 +12,7 @@ from src.utils import print_banner
 def main() -> None:
     print_banner()
     while True:
-        preferences = input("Deseja abrir a interface gráfica?['s' para abrir interface GUI, 'n' para continuar na interface CLI ou '0' para cancelar e sair]: ").strip().lower()
+        preferences = input("Deseja abrir a interface gráfica?['s' para abrir interface GUI, 'n' para continuar na interface CLI ou somente 'ENTER' para cancelar e sair]: ").strip().lower()
         if preferences == "s":
             app = QApplication(sys.argv)
             window = ConvertApp()
@@ -39,7 +39,7 @@ def main() -> None:
                     print(f"Erro ao converter arquivo: {error} \n\n Tente novamente.")
                     continue
             return
-        elif preferences == "0":
+        elif preferences == "":
             sys.exit()
         else:
             print("Opção inválida. Tente novamente.")
